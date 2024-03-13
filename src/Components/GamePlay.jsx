@@ -17,12 +17,12 @@ const GamePlay = () => {
 
 
   const roleDice = () => {
-    if(!SelectedNumber){
+    if(!selectedNumber){
       seterror("You have not selected any number");
       return;
     }
 
-    seterror('')
+    
     const randomNumber = generateRandomNumber(1,7);
     
 
@@ -43,7 +43,7 @@ const GamePlay = () => {
     <MainContainer>
       <div className="top_section">
       <TotalScore score={score}/>
-      <NumberSelector error = {error} selectedNumber={selectedNumber} setSelectedNumber={setSelectedNumber}/>
+      <NumberSelector error = {error} seterror={seterror} selectedNumber={selectedNumber} setSelectedNumber={setSelectedNumber}/>
       </div>
       <RoleDIce currentDice={currentDice} roleDice={roleDice} />
     </MainContainer>
