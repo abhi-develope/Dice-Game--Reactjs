@@ -9,7 +9,7 @@ const StartPage = ({toggle}) => {
       </div>
       <div className="content">
         <h1>DICE GAME</h1>
-        <Button>Play Now</Button>
+        <Button onClick={toggle}>Play Now</Button>
       </div>
     </Container>
   )
