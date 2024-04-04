@@ -1,4 +1,5 @@
 <h1>Dice Game</h1>
+<i>Deploy link</i><p>:- https://enchanting-dolphin-ad67c6.netlify.app/</p>
 <hr>
 <h2>Rules of the game</h2>
 <p>Player have to select a number from given number and if that number match witch the dice after rolling it the score is increase by the number on the face of dice otherwise score decrease by 2</p><ul>
